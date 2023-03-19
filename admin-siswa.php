@@ -35,7 +35,7 @@
                             <!-- <div class="col">
                                 <a href="admin-siswa-add.php" class="btn btn-primary mb-3 fw-bold rounded-0 text-uppercase" target="_blank">Tambah Siswa</a>
                             </div> -->
-                            <div class="col text-end">
+                            <div class="col">
                                 <div class="dropdown">
                                     <button class="btn btn-success btn-lg dropdown-toggle rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Berdasarkan Kota/Kabupaten
