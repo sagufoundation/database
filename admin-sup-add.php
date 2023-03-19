@@ -1,16 +1,19 @@
 <?php
-    session_start();
-    if(!isset($_SESSION["login"])){
-      echo"
-          <script>
+/**
+ * using mysqli_connect for database connection
+ */
+ 
+    $databaseHost = 'localhost';
+    $databaseName = 'database-beasiswa-sup';
+    $databaseUsername = 'root';
+    $databasePassword = '';
     
-                 window.location = 'index.php'
-          </script>
-          ";
-          exit;
-    }
+    $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
 
+    $siswa_semua = mysqli_query($mysqli, "SELECT * FROM siswa ORDER BY id DESC");
+ 
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -33,16 +36,6 @@
 
 <body class="bg-light">
 
-<div class="container-fluid">
-        <nav class="p-lg-5">
-            <a href="admin-dashboard.php" class="link-light btn btn-primary"><i class="fa-solid fa-home me-1"></i> DASHBOARD</a>
-            <a href="admin-student.php" class="link-light btn btn-success"><i class="fa-solid fa-users me-1"></i> STUDENTS</a>
-            <!-- <a href="#" class="link-light btn btn-primary"><i class="fa-solid fa-folder me-1"></i> DOCUMENTS</a> -->
-            <!-- <a href="#" class="link-light btn btn-primary"><i class="fa-solid fa-folder me-1"></i> STATISTICS</a> -->
-
-            <a href="logout.php" class="btn btn-outline-primary float-end"><i class="fa-solid fa-sign-out me-1"></i> LOG OUT</a>
-        </nav>
-    </div>
     <!-- .container end -->
 
     <div class="container-fluid">

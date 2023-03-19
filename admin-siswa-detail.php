@@ -1,16 +1,4 @@
-<?php
-    session_start();
-    if(!isset($_SESSION["login"])){
-      echo"
-          <script>
-    
-                 window.location = 'index.php'
-          </script>
-          ";
-          exit;
-    }
-
-?>
+<?php require_once('config/siswa/detail.php'); ?>
 
 <!doctype html>
 <html lang="en">
@@ -33,16 +21,6 @@
 
 <body class="bg-light">
 
-<div class="container-fluid">
-        <nav class="p-lg-5">
-            <a href="admin-dashboard.php" class="link-light btn btn-primary"><i class="fa-solid fa-home me-1"></i> DASHBOARD</a>
-            <a href="admin-student.php" class="link-light btn btn-success"><i class="fa-solid fa-users me-1"></i> STUDENTS</a>
-            <!-- <a href="#" class="link-light btn btn-primary"><i class="fa-solid fa-folder me-1"></i> DOCUMENTS</a> -->
-            <!-- <a href="#" class="link-light btn btn-primary"><i class="fa-solid fa-folder me-1"></i> STATISTICS</a> -->
-
-            <a href="logout.php" class="btn btn-outline-primary float-end"><i class="fa-solid fa-sign-out me-1"></i> LOG OUT</a>
-        </nav>
-    </div>
     <!-- .container end -->
 
     <div class="container-fluid">
@@ -53,12 +31,12 @@
                         <div class="row mb-3">
 
                             <div class="col-lg-10">
-                                <h1>STUDENT DETAIL</h1>
+                                <h1 class="fw-bold">Detail Siswa</h1>
                                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur optio, quidem, placeat iste vero rem maxime beatae fugit voluptate provident quam est consequatur ea numquam quae odio dolores aperiam sequi.</p>
                             </div>
 
                             <div class="col-lg-2 text-end">
-                                <a href="admin-student.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-times-rectangle me-1"></i> Close</a>
+                                <a href="./admin-siswa.php" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-times-rectangle me-1"></i> Close</a>
                             </div>
 
                         </div>
@@ -74,29 +52,31 @@
                                 <div>
                                     <a href="#" class="btn btn-sm btn-link-dark w-100" title="Update Picture"><i class="fa-solid fa-edit"></i> Update Picture</a>
                                 </div>
-                                
-                            </div>
 
+                            </div>
 
                             <div class="col-lg-5 mb-5">
 
-                                <h3 class="fw-bold">Bio</h3>
+                                <h3 class="fw-bold">Bio</h3>                                
                                 
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <span class="d-block fw-bold">Full Name :</span> Anastasia Febriani Yandong
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="d-block fw-bold">Email :</span> ayandong@sagufoundation.org
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="d-block fw-bold">Address :</span> Jalan Raya Sentani, Kelurahan Waena, Kelurahan Heram, Kota Jayapura, Papua.	
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href="admin-student-edit.html" class="btn btn-sm btn-dark"><i class="fa-solid fa-edit"></i> Edit</a>
-                                        <a href="admin-student-trash.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-trash"></i></a>
-                                    </li>
-                                </ul>
+                                <form action="./admin-student-detail.html">
+
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <div>
+                                                <span class="fw-bold form-label d-block">Nama Lengkap :</span> 
+                                                <?=$nama_lengkap?>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div>
+                                                <span class="fw-bold form-label d-block">NIK :</span> 
+                                                <?=$nik?>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </form>
 
                             </div>
                             <div class="col-lg-5" mb-5>
@@ -109,6 +89,8 @@
                                         <div>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-download me-1"></i></a>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-eye me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-edit me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-trash me-1"></i></a>
                                         </div>
                                         
                                     </li>
@@ -117,6 +99,8 @@
                                         <div>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-download me-1"></i></a>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-eye me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-edit me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-trash me-1"></i></a>
                                         </div>
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between">
@@ -124,6 +108,8 @@
                                         <div>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-download me-1"></i></a>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-eye me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-edit me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-trash me-1"></i></a>
                                         </div>
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between">
@@ -131,6 +117,8 @@
                                         <div>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-download me-1"></i></a>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-eye me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-edit me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-trash me-1"></i></a>
                                         </div>
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between">
@@ -138,6 +126,8 @@
                                         <div>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-download me-1"></i></a>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-eye me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-edit me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-trash me-1"></i></a>
                                         </div>
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between">
@@ -145,6 +135,8 @@
                                         <div>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-download me-1"></i></a>
                                             <a href="#" class="btn btn-sm btn-dark p-0 px-2"><i class="fa-solid fa-eye me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-edit me-1"></i></a>
+                                            <a href="#" class="btn btn-sm btn-outline-dark p-0 px-2"><i class="fa-solid fa-trash me-1"></i></a>
                                         </div>
                                     </li>
                                 </ul>
