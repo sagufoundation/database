@@ -10,5 +10,7 @@
         $nama_lengkap = $siswa['nama_lengkap'];
         $nik = $siswa['nik'];
         $kabkota = $siswa['kabkota'];
+        $program_beasiswa = $siswa['program_beasiswa'];
         $folder_google_drive = $siswa['folder_google_drive'];
+        $keterangan = $siswa['keterangan'];
     }

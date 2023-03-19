@@ -1,22 +1,30 @@
 <?php require_once('config/siswa/semua.php'); ?>
 <?php require_once('./partials/header.php'); ?>
 
+    <!-- HEADER START -->
+    <div class="container-fluid text-uppercase p-lg-5">
+        <div class="row">
+            <div class="col-lg-1">
+                <img src="./assets/images/logo-sagu-foundation.png" alt="Logo SAGU Foundation" class="img-fluid">
+            </div>
+            <div class="col-lg-11">
+                <h1 class="fw-bold display-3">SAGU Foundation</h1>
+                <p class="h3 fw-bold">Database Siswa Program Beasiswa SUP 2020 & SUP 2021</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- HEADER END -->
+
     <!-- .container start -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 p-lg-5">
                 <div class="card shadow">
                     <div class="card-body">
-                        <div class="mb-3">
-                            <h1 class="fw-bold">DATABASE SISWA SAGU FOUNDATION</h1>
-                            <p class="h3">Program Pembinaan Beasiswa Siswa Unggul Papua.</p>
-                        </div>
 
                         <div class="row mb-3">
-
-                            <!-- <div class="col">
-                                <a href="admin-siswa-add.php" class="btn btn-primary mb-3 fw-bold rounded-0 text-uppercase" target="_blank">Tambah Siswa</a>
-                            </div> -->
+                            
                             <div class="col">
                                 <div class="dropdown">
                                     <button class="btn btn-success btn-lg dropdown-toggle rounded-0 text-uppercase" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -84,34 +92,8 @@
                                         echo "<td>" . $user_data['nik'] . "</td>";
                                         echo "<td>
                                                 <a class='btn btn-sm btn-success rounded-0' href='".$user_data['folder_google_drive']."' target='_blank'><i class='fa-solid fa-folder me-1'></i> Folder Google Drive</a>  
-                                                <a class='btn btn-sm btn-dark rounded-0' href='admin-siswa-detail.php?id=$user_data[id]'>Detail</a>  
-                                                <a class='btn btn-sm btn-outline-dark rounded-0' href='admin-siswa-edit.php?id=$user_data[id]'>Edit</a>  
-                                                <a class='btn btn-sm btn-outline-danger rounded-0' href='config/siswa/hapus.php?id=$user_data[id]' data-bs-toggle='modal' data-bs-target='#siswa-$user_data[id]'>Delete</a>
                                               </td>
                                               </tr>
-                                              
-                                              
-
-                                              <div class='modal fade' id='siswa-$user_data[id]' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
-                                                <div class='modal-dialog'>
-                                                    <div class='modal-content'>
-                                                    <div class='modal-header'>
-                                                        <h1 class='modal-title fs-5' id='exampleModalLabel'>Yakin ingin menghapus data berikut?</h1>
-                                                        <button type='button' class='btn-close rounded-0' data-bs-dismiss='modal' aria-label='Close'></button>
-                                                    </div>
-                                                    <div class='modal-body'>
-                                                        " . $user_data['nama_lengkap'] . "
-                                                    </div>
-                                                    <div class='modal-footer'>
-                                                        <button type='button' class='btn btn-secondary rounded-0' data-bs-dismiss='modal'>Close</button>
-                                                        <form action='./config/siswa/hapus.php' method='post'>
-                                                            <input type='hidden' name='id' value='$user_data[id]'>
-                                                            <button type='submit' name='delete' class='btn btn-danger rounded-0'>Hapus</button>
-                                                        </form>
-                                                    </div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             ";
                                     }
                                     ?>
