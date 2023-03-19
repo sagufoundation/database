@@ -30,13 +30,15 @@
 
 </head>
 
-<body class="bg-light">
+<body class="bg-light" style="background-image: url('./assets/images/bg.png');background-size:cover;">
 
 <!-- HEADER START -->
 <div class="container-fluid text-uppercase p-lg-5">
     <div class="row">
         <div class="col-lg-1">
-            <img src="./assets/images/logo-sagu-foundation.png" alt="Logo SAGU Foundation" class="img-fluid">
+            <a href="siswa.php">
+                <img src="./assets/images/logo-sagu-foundation.png" alt="Logo SAGU Foundation" class="img-fluid">
+            </a>
         </div>
         <div class="col-lg-8">
             <h1 class="fw-bold display-3">SAGU Foundation</h1>

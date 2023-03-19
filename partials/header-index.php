@@ -30,4 +30,4 @@
 
 </head>
 
-<body class="bg-light">
+<body class="bg-light" style="background-image: url('./assets/images/bg.png');background-size:cover;">
