@@ -53,33 +53,33 @@
             </button>
             <ul class="dropdown-menu rounded-0">
                 <!-- PAPUA -->
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kota Jayapura" target="_blank">Kota Jayapura</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Jayapura" target="_blank">Kabupaten Jayapura</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Keerom" target="_blank">Kabupaten Keerom</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Sarmi" target="_blank">Kabupaten Sarmi</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Biak Numfor" target="_blank">Kabupaten Biak Numfor</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Kepulauan Yapen" target="_blank">Kabupaten Biak Kepulauan Yapen</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Waropen" target="_blank">Kabupaten Waropen</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kota Jayapura" target="_blank">Kota Jayapura</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Jayapura" target="_blank">Kabupaten Jayapura</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Keerom" target="_blank">Kabupaten Keerom</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Sarmi" target="_blank">Kabupaten Sarmi</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Biak Numfor" target="_blank">Kabupaten Biak Numfor</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Kepulauan Yapen" target="_blank">Kabupaten Biak Kepulauan Yapen</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Waropen" target="_blank">Kabupaten Waropen</a></li>
 
                 <!-- PAPUA PEGUNUNGAN -->
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Yahukimo" target="_blank">Kabupaten Yahukimo</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Yalimo" target="_blank">Kabupaten Yalimo</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Puncak" target="_blank">Kabupaten Puncak</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Jayawijaya" target="_blank">Kabupaten Jayawijaya</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Lanny Jaya" target="_blank">Kabupaten Lanny Jaya</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Pegunungan Bintang" target="_blank">Kabupaten Pegunungan Bintang</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Yahukimo" target="_blank">Kabupaten Yahukimo</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Yalimo" target="_blank">Kabupaten Yalimo</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Puncak" target="_blank">Kabupaten Puncak</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Jayawijaya" target="_blank">Kabupaten Jayawijaya</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Lanny Jaya" target="_blank">Kabupaten Lanny Jaya</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Pegunungan Bintang" target="_blank">Kabupaten Pegunungan Bintang</a></li>
 
                 <!-- PAPUA TENGAH -->
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Intan Jaya" target="_blank">Kabupaten Intan Jaya</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Nabire" target="_blank">Kabupaten Nabire</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Paniai" target="_blank">Kabupaten Paniai</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Mimika" target="_blank">Kabupaten Mimika</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Nabire" target="_blank">Kabupaten Nabire</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Dogiai" target="_blank">Kabupaten Dogiai</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Intan Jaya" target="_blank">Kabupaten Intan Jaya</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Nabire" target="_blank">Kabupaten Nabire</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Paniai" target="_blank">Kabupaten Paniai</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Mimika" target="_blank">Kabupaten Mimika</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Nabire" target="_blank">Kabupaten Nabire</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Dogiai" target="_blank">Kabupaten Dogiai</a></li>
 
                 <!-- PAPUA SELATAN -->
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Merauke" target="_blank">Kabupaten Merauke</a></li>
-                <li><a class="dropdown-item text-uppercase" href="admin-siswa.php?filter=Kabupaten Mappi" target="_blank">Kabupaten Mappi</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Merauke" target="_blank">Kabupaten Merauke</a></li>
+                <li><a class="dropdown-item text-uppercase" href="siswa.php?filter=Kabupaten Mappi" target="_blank">Kabupaten Mappi</a></li>
             </ul>
         </div>
         </div>
