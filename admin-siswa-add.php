@@ -5,13 +5,12 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 p-lg-5">
-                <div class="card shadow">
-                    <div class="card-body">
+                <div class="card shadow rounded-0">
+                    <div class="card-header">
                         <div class="row mb-3">
 
                             <div class="col-lg-10">
                                 <h1 class="fw-bold">Tambah Siswa</h1>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur optio, quidem, placeat iste vero rem maxime beatae fugit voluptate provident quam est consequatur ea numquam quae odio dolores aperiam sequi.</p>
                             </div>
 
                             <div class="col-lg-2 text-end">
@@ -19,6 +18,9 @@
                             </div>
 
                         </div>
+                        
+                    </div>
+                    <div class="card-body">
 
                         <div class="row">
 
@@ -26,7 +28,7 @@
 
                                 <h3 class="fw-bold">Picture</h3>    
 
-                                <img src="./assets/images/photos/user.png" alt="Profile Picture" class="img-thumbnail w-100 mb-lg-3 p-lg-5">
+                                <img src="./assets/images/photos/user.png" alt="Profile Picture" class="img-thumbnail w-100 mb-lg-3 p-lg-5 rounded-0">
 
                                 <div>
                                     <a href="#" class="btn btn-sm btn-link-dark w-100" title="Update Picture"><i class="fa-solid fa-edit"></i> Update Picture</a>
@@ -40,7 +42,7 @@
                                 
                                 <form action="./config/siswa/tambah.php" method="post" enctype="multipart/form-data">
 
-                                    <ul class="list-group">
+                                    <ul class="list-group rounded-0">
                                         <li class="list-group-item">
                                             <label for="nama_lengkap" class="fw-bold form-label">Nama Lengkap :</label> 
                                             <input type="text" class="form-control form-control-lg rounded-0" id="nama_lengkap" name="nama_lengkap" value="">
@@ -61,7 +63,7 @@
                                         </li>-->
                                         <li class="list-group-item">
                                             <label class="fw-bold form-label">Kabupaten/Kota :</label> 
-                                            <select name="kabkota" id="" class="form-select form-select-lg rounded-0">
+                                            <select name="kabkota" id="" class="form-select form-select-lg rounded-0 text-uppercase">
                                                 <option hidden selected>Pilih</option>
                                                 <!-- PAPUA -->
                                                 <option value="Kota Jayapura">Kota Jayapura</option>
@@ -96,7 +98,7 @@
                                         </li> 
                                         <li class="list-group-item">
                                             <label class="fw-bold form-label">Program Beasiswa :</label> 
-                                            <select name="provinsi" id="" class="form-select">
+                                            <select name="provinsi" id="" class="form-select form-select-lg rounded-0">
                                                 <option hidden selected>Pilih</option>
                                                 <option value="SUP Vokasi 2020">SUP Vokasi 2020</option>
                                                 <option value="SUP 2021">SUP 2021</option>
