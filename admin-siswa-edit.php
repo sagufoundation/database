@@ -115,8 +115,8 @@
                                             <label class="fw-bold form-label" for="lokasi_studi">Lokasi Studi :</label> 
                                             <select name="lokasi_studi" id="lokasi_studi" class="form-select form-select-lg rounded-0 text-uppercase">
                                                 <option hidden selected>Pilih</option>
-                                                <option value="Dalam Negeri" <?php if($program_beasiswa == 'Dalam Negeri') { echo 'Selected'; }?>>Dalam Negeri</option>
-                                                <option value="Luar Negeri" <?php if($program_beasiswa == 'Luar Negeri') { echo 'Selected'; }?>>Luar Negeri</option>
+                                                <option value="Dalam Negeri" <?php if($lokasi_studi == 'Dalam Negeri') { echo 'Selected'; }?>>Dalam Negeri</option>
+                                                <option value="Luar Negeri" <?php if($lokasi_studi == 'Luar Negeri') { echo 'Selected'; }?>>Luar Negeri</option>
                                             </select>
                                         </li>
                                         <!-- <li class="list-group-item">

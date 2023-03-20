@@ -12,5 +12,6 @@
         $kabkota = $siswa['kabkota'];
         $program_beasiswa = $siswa['program_beasiswa'];
         $folder_google_drive = $siswa['folder_google_drive'];
+        $lokasi_studi = $siswa['lokasi_studi'];
         $keterangan = $siswa['keterangan'];
     }
