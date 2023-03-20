@@ -98,7 +98,7 @@
                                         </li> 
                                         <li class="list-group-item">
                                             <label class="fw-bold form-label">Program Beasiswa :</label> 
-                                            <select name="provinsi" id="" class="form-select form-select-lg rounded-0">
+                                            <select name="provinsi" id="" class="form-select form-select-lg rounded-0 text-uppercase">
                                                 <option hidden selected>Pilih</option>
                                                 <option value="SUP Vokasi 2020">SUP Vokasi 2020</option>
                                                 <option value="SUP 2021">SUP 2021</option>

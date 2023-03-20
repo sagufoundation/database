@@ -99,7 +99,7 @@
                                         </li> 
                                         <li class="list-group-item">
                                             <label class="fw-bold form-label" for="program_beasiswa">Program Beasiswa :</label> 
-                                            <select name="program_beasiswa" id="program_beasiswa" class="form-select form-select-lg rounded-0">
+                                            <select name="program_beasiswa" id="program_beasiswa" class="form-select form-select-lg rounded-0 text-uppercase">
                                                 <option hidden selected>Pilih</option>
                                                 <option value="SUP Vokasi 2020" <?php if($program_beasiswa == 'SUP Vokasi 2020') { echo 'Selected'; }?>>SUP Vokasi 2020</option>
                                                 <option value="SUP 2021" <?php if($program_beasiswa == 'SUP 2021') { echo 'Selected'; }?>>SUP 2021</option>
