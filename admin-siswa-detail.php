@@ -12,7 +12,6 @@
 
                             <div class="col-lg-10">
                                 <h1 class="fw-bold">Detail Siswa</h1>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur optio, quidem, placeat iste vero rem maxime beatae fugit voluptate provident quam est consequatur ea numquam quae odio dolores aperiam sequi.</p>
                             </div>
 
                             <div class="col-lg-2 text-end">
@@ -75,7 +74,7 @@
                                         <li class="list-group-item">
                                             <div>
                                                 <span class="fw-bold form-label d-block">Folder Google Drive :</span> 
-                                                <a href="<?=$folder_google_drive?>" class="btn btn-outline-success" target="_blank"><i class="fa-solid fa-folder me-1"></i> Tampilkan</a>
+                                                <a href="<?=$folder_google_drive?>" class="btn btn-outline-success rounded-0" target="_blank"><i class="fa-solid fa-folder me-1"></i> Tampilkan</a>
                                             </div>
                                         </li>
                                     </ul>
