@@ -12,7 +12,6 @@
 
                             <div class="col-lg-10">
                                 <h1 class="fw-bold">Ubah Siswa</h1>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur optio, quidem, placeat iste vero rem maxime beatae fugit voluptate provident quam est consequatur ea numquam quae odio dolores aperiam sequi.</p>
                             </div>
 
                             <div class="col-lg-2 text-end">
