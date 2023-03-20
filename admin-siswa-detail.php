@@ -73,8 +73,16 @@
                                         </li>
                                         <li class="list-group-item">
                                             <div>
+                                                <span class="fw-bold form-label d-block">Keterangan :</span> 
+                                                <?=$keterangan?>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div>
                                                 <span class="fw-bold form-label d-block">Folder Google Drive :</span> 
-                                                <a href="<?=$folder_google_drive?>" class="btn btn-outline-success rounded-0" target="_blank"><i class="fa-solid fa-folder me-1"></i> Tampilkan</a>
+                                                <?php if(isset($folder_google_drive) && $folder_google_drive != ''){ ?> 
+                                                    <a href="<?=$folder_google_drive?>" class="btn btn-outline-success rounded-0" target="_blank"><i class="fa-solid fa-folder me-1"></i> Tampilkan data di Google Drive</a>
+                                                <?php } ?>
                                             </div>
                                         </li>
                                     </ul>
