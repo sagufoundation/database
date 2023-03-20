@@ -103,11 +103,19 @@
                                             </select>
                                         </li> 
                                         <li class="list-group-item">
-                                            <label class="fw-bold form-label">Program Beasiswa :</label> 
-                                            <select name="provinsi" id="" class="form-select form-select-lg rounded-0 text-uppercase">
+                                            <label class="fw-bold form-label" for="provinsi">Program Beasiswa :</label> 
+                                            <select name="provinsi" id="provinsi" class="form-select form-select-lg rounded-0 text-uppercase">
                                                 <option hidden selected>Pilih</option>
                                                 <option value="SUP Vokasi 2020">SUP Vokasi 2020</option>
                                                 <option value="SUP 2021">SUP 2021</option>
+                                            </select>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <label class="fw-bold form-label" for="lokasi_studi">Lokasi Studi :</label> 
+                                            <select name="lokasi_studi" id="lokasi_studi" class="form-select form-select-lg rounded-0 text-uppercase">
+                                                <option hidden selected>Pilih</option>
+                                                <option value="Dalam Negeri">Dalam Negeri</option>
+                                                <option value="Luar Negeri">Luar Negeri</option>
                                             </select>
                                         </li>
                                         <!-- <li class="list-group-item">
