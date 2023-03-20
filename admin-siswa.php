@@ -27,6 +27,7 @@
                                     <th class="text-uppercase">Program Beasiswa</th>
                                     <th class="text-uppercase">Lokasi Studi</th>
                                     <th class="text-uppercase">NIK</th>
+                                    <th class="text-uppercase">Universitas</th>
                                     <th class="text-uppercase">Keterangan</th>
                                     <th class="text-uppercase">Folder Google Drive</th>
                                     <th class="text-uppercase">Opsi</th>
@@ -45,6 +46,7 @@
                                     echo "<td class='text-uppercase'>" . $user_data['program_beasiswa'] . "</td>";
                                     echo "<td class='text-uppercase'>" . $user_data['lokasi_studi'] . "</td>";
                                     echo "<td>" . $user_data['nik'] . "</td>";
+                                    echo "<td>" . $user_data['universitas'] . "</td>";
                                     echo "<td>" . $user_data['keterangan'] . "</td>";
                                     echo "<td>";
                                         if(isset($user_data['folder_google_drive']) && $user_data['folder_google_drive'] != '') {

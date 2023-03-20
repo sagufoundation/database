@@ -133,7 +133,7 @@
                                         </li>
                                         <li class="list-group-item">
                                             <label for="universitas" class="fw-bold form-label">Universitas :</label> 
-                                            <input type="text" class="form-control form-control-lg rounded-0" id="universitas" name="universitas" value="<?=$keterangan?>">
+                                            <input type="text" class="form-control form-control-lg rounded-0" id="universitas" name="universitas" value="<?=$universitas?>">
                                         </li>
                                         <li class="list-group-item">
                                             <label class="fw-bold form-label" for="keterangan">Keterangan :</label> 
