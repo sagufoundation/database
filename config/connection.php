@@ -9,6 +9,9 @@
 
     $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
 
+
+
+
     // // CONECTION FOR LOCAL DEVELOPMENT
 
     // $databaseHost = 'localhost';
