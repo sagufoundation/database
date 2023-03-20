@@ -68,7 +68,7 @@
                                     $rows_dalam_engeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi ='Dalam Negeri' AND program_beasiswa = 'SUP Vokasi 2020'");
                                     $rows_dalam_engeri = mysqli_num_rows($rows_dalam_engeri);
                                 ?>
-                                Dalam Negeri : <span class="fw-bold badge bg-dark rounded-0"><?=$rows_dalam_engeri?></span>
+                                Dalam Negeri <span class="fw-bold badge bg-dark rounded-0"><?=$rows_dalam_engeri?></span>
                             </div>
                             <div class="d-block border mb-1 py-1 d-flex justify-content-between px-2 <?php if (isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
                                 <?php
@@ -76,7 +76,7 @@
                                     $rows_luar_negeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi ='Luar Negeri' AND program_beasiswa = 'SUP Vokasi 2020'");
                                     $rows_luar_negeri = mysqli_num_rows($rows_luar_negeri);
                                 ?>
-                                Luar Negeri : <span class="fw-bold badge bg-dark rounded-0"><?=$rows_luar_negeri?></span>
+                                Luar Negeri <span class="fw-bold badge bg-dark rounded-0"><?=$rows_luar_negeri?></span>
                             </div>
                             <div class="d-block border mb-1 py-1 d-flex justify-content-between px-2 <?php if (isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
                                 <?php
@@ -84,7 +84,7 @@
                                     $rows_luar_negeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi !='Luar Negeri' AND  lokasi_studi !='Dalam Negeri' AND program_beasiswa = 'SUP Vokasi 2020'");
                                     $rows_luar_negeri = mysqli_num_rows($rows_luar_negeri);
                                 ?>
-                                Tanpa Keterangan : <span class="fw-bold badge bg-dark rounded-0"><?=$rows_luar_negeri?></span>
+                                Tanpa Keterangan <span class="fw-bold badge bg-dark rounded-0"><?=$rows_luar_negeri?></span>
                             </div>
                         </div>
 
@@ -116,7 +116,7 @@
                                     $rows_dalam_engeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi ='Dalam Negeri' AND program_beasiswa = 'SUP 2021'");
                                     $rows_dalam_engeri = mysqli_num_rows($rows_dalam_engeri);
                                 ?>
-                                Dalam Negeri : <span class="fw-bold badge bg-dark rounded-0"><?=$rows_dalam_engeri?></span>
+                                Dalam Negeri <span class="fw-bold badge bg-dark rounded-0"><?=$rows_dalam_engeri?></span>
                             </div>
                             <div class="d-block border mb-1 py-1 d-flex justify-content-between px-2 <?php if (isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
                                 <?php
@@ -124,7 +124,7 @@
                                     $rows_luar_negeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi ='Luar Negeri' AND program_beasiswa = 'SUP 2021'");
                                     $rows_luar_negeri = mysqli_num_rows($rows_luar_negeri);
                                 ?>
-                                Luar Negeri : <span class="fw-bold badge bg-dark rounded-0"><?=$rows_luar_negeri?></span>
+                                Luar Negeri <span class="fw-bold badge bg-dark rounded-0"><?=$rows_luar_negeri?></span>
                             </div>
                             <div class="d-block border mb-1 py-1 d-flex justify-content-between px-2 <?php if (isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
                                 <?php
@@ -132,7 +132,7 @@
                                     $rows_luar_negeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi !='Luar Negeri' AND  lokasi_studi !='Dalam Negeri' AND program_beasiswa = 'SUP 2021'");
                                     $rows_luar_negeri = mysqli_num_rows($rows_luar_negeri);
                                 ?>
-                                Tanpa Keterangan : <span class="fw-bold badge bg-dark rounded-0"><?=$rows_luar_negeri?></span>
+                                Tanpa Keterangan <span class="fw-bold badge bg-dark rounded-0"><?=$rows_luar_negeri?></span>
                             </div>
                         </div>
 
