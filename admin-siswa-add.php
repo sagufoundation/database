@@ -116,6 +116,7 @@
                                                 <option hidden selected>Pilih</option>
                                                 <option value="Dalam Negeri">Dalam Negeri</option>
                                                 <option value="Luar Negeri">Luar Negeri</option>
+                                                <option value="">Tanpa Keterangan</option>
                                             </select>
                                         </li>
                                         <!-- <li class="list-group-item">

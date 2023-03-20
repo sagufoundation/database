@@ -116,6 +116,7 @@
                                                 <option hidden selected>Pilih</option>
                                                 <option value="Dalam Negeri" <?php if($lokasi_studi == 'Dalam Negeri') { echo 'Selected'; }?>>Dalam Negeri</option>
                                                 <option value="Luar Negeri" <?php if($lokasi_studi == 'Luar Negeri') { echo 'Selected'; }?>>Luar Negeri</option>
+                                                <option value="" <?php if($lokasi_studi == '') { echo 'Selected'; }?>>Tanpa Keterangan</option>
                                             </select>
                                         </li>
                                         <!-- <li class="list-group-item">
