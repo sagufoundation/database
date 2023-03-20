@@ -132,6 +132,10 @@
                                             <input type="text" class="form-control form-control-lg rounded-0" id="folder_google_drive" name="folder_google_drive" value="">
                                         </li>
                                         <li class="list-group-item">
+                                            <label class="fw-bold form-label" for="keterangan">Keterangan :</label> 
+                                            <textarea name="keterangan" id="keterangan" rows="10" class="form-control form-control-lg rounded-0"></textarea>
+                                        </li>
+                                        <li class="list-group-item">
                                             <button type="submit" class="btn btn-dark btn-lg rounded-0" name="submit">
                                                 <i class="fa-solid fa-save"></i> Save
                                             </button>
