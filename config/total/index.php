@@ -11,7 +11,6 @@
                         ?>
                         <p class="text-uppercase fw-bold">Total Semua Siswa</p>
                         <h1><span class="fw-bold"><?= $rows_semua_siswa ?></span> Siswa</h1>
-                        <a href="./siswa.php" class="btn link-success btn-sm fw-bold w-100" title="Saat ini link belum berfungsi"><i class="fa-solid fa-arrow-right me-2"></i>Tampilkan</a>
 
                         <div class="mt-2">
                             <div class="d-block border mb-1 py-1 d-flex justify-content-between px-2 <?php if (!isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
@@ -40,6 +39,8 @@
                                 Tanpa Keterangan <span class="fw-bold badge bg-dark rounded-0"><?=$rows_luar_negeri?></span>
                             </div>
                         </div>
+                        
+                        <a href="./siswa.php" class="btn link-success btn-sm fw-bold w-100" title="Saat ini link belum berfungsi"><i class="fa-solid fa-arrow-right me-2"></i>Tampilkan</a>
 
                     </div>
                 </div>
@@ -59,7 +60,6 @@
                         ?>
                         <p class="text-uppercase fw-bold">SUP Vokasi 2020</p>
                         <h1><span class="fw-bold"><?= $rows_sup_vokasi ?></span> Siswa</h1>
-                        <a href="?filter_program=SUP Vokasi 2020" class="btn link-success btn-sm fw-bold w-100" title="Saat ini link belum berfungsi"><i class="fa-solid fa-arrow-right me-2"></i>Tampilkan</a>
 
                         <div class="mt-2">
                             <div class="d-block border mb-1 py-1 d-flex justify-content-between px-2 <?php if (isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
@@ -88,6 +88,8 @@
                             </div>
                         </div>
 
+                        <a href="?filter_program=SUP Vokasi 2020" class="btn link-success btn-sm fw-bold w-100" title="Saat ini link belum berfungsi"><i class="fa-solid fa-arrow-right me-2"></i>Tampilkan</a>
+
                     </div>
                 </div>
             </div>
@@ -106,7 +108,6 @@
                         ?>
                         <p class="text-uppercase fw-bold">SUP 2021</p>
                         <h1><span class="fw-bold"><?= $rows_sup_2021 ?></span> Siswa</h1>
-                        <a href="?filter_program=SUP 2021" class="btn link-success btn-sm fw-bold w-100" title="Saat ini link belum berfungsi"><i class="fa-solid fa-arrow-right me-2"></i>Tampilkan</a>
 
                         <div class="mt-2">
                             <div class="d-block border mb-1 py-1 d-flex justify-content-between px-2 <?php if (isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
@@ -134,6 +135,8 @@
                                 Tanpa Keterangan : <span class="fw-bold badge bg-dark rounded-0"><?=$rows_luar_negeri?></span>
                             </div>
                         </div>
+
+                        <a href="?filter_program=SUP 2021" class="btn link-success btn-sm fw-bold w-100" title="Saat ini link belum berfungsi"><i class="fa-solid fa-arrow-right me-2"></i>Tampilkan</a>
 
                     </div>
                 </div>
