@@ -88,7 +88,7 @@
                                                 <option value="Kabupaten Paniai">Kabupaten Paniai</option> 
                                                 <option value="Kabupaten Mimika">Kabupaten Mimika</option> 
                                                 <option value="Kabupaten Nabire">Kabupaten Nabire</option> 
-                                                <option value="Kabupaten Dogiai">Kabupaten Dogiai</option> 
+                                                <option value="Kabupaten Dogiyai">Kabupaten Dogiyai</option> 
 
                                                 <!-- PAPUA SELATAN -->
                                                 <option value="Kabupaten Merauke">Kabupaten Merauke</option> 

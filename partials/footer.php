@@ -42,6 +42,14 @@
         <script src="./assets/libs/pdfmake/build/vfs_fonts.js"></script>
         <!-- third party js ends -->
 
+        
+
+        <!-- Responsive Table js -->
+        <script src="./assets/libs/admin-resources/rwd-table/rwd-table.min.js"></script>
+
+        <!-- Init js -->
+        <script src="./assets/js/pages/responsive-table.init.js"></script>
+
         <!-- Datatables init -->
         <script src="./assets/js/pages/datatables.init.js"></script>
 

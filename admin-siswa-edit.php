@@ -89,7 +89,7 @@
                                                 <option value="Kabupaten Paniai" <?php if($kabkota == 'Kabupaten Paniai') { echo 'Selected'; }?>>Kabupaten Paniai</option> 
                                                 <option value="Kabupaten Mimika" <?php if($kabkota == 'Kabupaten Mimika') { echo 'Selected'; }?>>Kabupaten Mimika</option> 
                                                 <option value="Kabupaten Nabire" <?php if($kabkota == 'Kabupaten Nabire') { echo 'Selected'; }?>>Kabupaten Nabire</option> 
-                                                <option value="Kabupaten Dogiai" <?php if($kabkota == 'Kabupaten Dogiai') { echo 'Selected'; }?>>Kabupaten Dogiai</option> 
+                                                <option value="Kabupaten Dogiyai" <?php if($kabkota == 'Kabupaten Dogiyai') { echo 'Selected'; }?>>Kabupaten Dogiyai</option> 
 
                                                 <!-- PAPUA SELATAN -->
                                                 <option value="Kabupaten Merauke" <?php if($kabkota == 'Kabupaten Merauke') { echo 'Selected'; }?>>Kabupaten Merauke</option> 
