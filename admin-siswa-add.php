@@ -132,6 +132,10 @@
                                             <input type="text" class="form-control form-control-lg rounded-0" id="folder_google_drive" name="folder_google_drive" value="">
                                         </li>
                                         <li class="list-group-item">
+                                            <label for="universitas" class="fw-bold form-label">Universitas :</label> 
+                                            <input type="text" class="form-control form-control-lg rounded-0" id="universitas" name="universitas" value="">
+                                        </li>
+                                        <li class="list-group-item">
                                             <label class="fw-bold form-label" for="keterangan">Keterangan :</label> 
                                             <textarea name="keterangan" id="keterangan" rows="10" class="form-control form-control-lg rounded-0"></textarea>
                                         </li>
