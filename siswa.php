@@ -4,8 +4,12 @@
     <!-- .container start -->
     <div class="container-fluid">
 
+        <!-- REKAP JUMLAH DATA START-->
+        <?php require_once('./config/total/index.php'); ?>
+        <!-- REKAP JUMLAH DATA END -->
+
         <div class="row">
-            <div class="col-12 p-lg-5">
+            <div class="col-12 px-lg-5">
                 <div class="card">
                     <div class="card-body">
 
