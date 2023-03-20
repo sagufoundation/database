@@ -95,6 +95,12 @@
                                                 <option value="Kabupaten Merauke" <?php if($kabkota == 'Kabupaten Merauke') { echo 'Selected'; }?>>Kabupaten Merauke</option> 
                                                 <option value="Kabupaten Mappi" <?php if($kabkota == 'Kabupaten Mappi') { echo 'Selected'; }?>>Kabupaten Mappi</option> 
 
+                                                <!-- PAPUA BARAT -->
+                                                <option value="Kabupaten Manokwari" <?php if($kabkota == 'Kabupaten Manokwari') { echo 'Selected'; }?>>Kabupaten Manokwari</option> 
+
+                                                <!-- PAPUA BARAT DAYA -->
+                                                <option value="Kota Sorong" <?php if($kabkota == 'Kota Sorong') { echo 'Selected'; }?>>Kota Sorong</option> 
+
                                             </select>
                                         </li> 
                                         <li class="list-group-item">

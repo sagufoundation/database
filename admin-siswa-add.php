@@ -94,6 +94,12 @@
                                                 <option value="Kabupaten Merauke">Kabupaten Merauke</option> 
                                                 <option value="Kabupaten Mappi">Kabupaten Mappi</option> 
 
+                                                <!-- PAPUA BARAT -->
+                                                <option value="Kabupaten Manokwari">Kabupaten Manokwari</option> 
+
+                                                <!-- PAPUA BARAT DAYA -->
+                                                <option value="Kota Sorong">Kota Sorong</option> 
+
                                             </select>
                                         </li> 
                                         <li class="list-group-item">
