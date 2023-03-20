@@ -15,10 +15,21 @@
 
                         <div class="mt-2">
                             <div class="d-block border mb-1 py-1 <?php if (!isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
-                                Dalam Negeri : <span class="fw-bold">10</span>
+
+                                <?php
+                                    require_once('./config/connection.php');
+                                    $rows_dalam_engeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi ='Dalam Negeri'");
+                                    $rows_dalam_engeri = mysqli_num_rows($rows_dalam_engeri);
+                                ?>
+                                Dalam Negeri : <span class="fw-bold"><?=$rows_dalam_engeri?></span>
                             </div>
                             <div class="d-block border mb-1 py-1 <?php if (!isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
-                                Luar Negeri : <span class="fw-bold">10</span>
+                            <?php
+                                    require_once('./config/connection.php');
+                                    $rows_luar_negeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi ='Luar Negeri'");
+                                    $rows_luar_negeri = mysqli_num_rows($rows_luar_negeri);
+                                ?>
+                                Luar Negeri : <span class="fw-bold"><?=$rows_luar_negeri?></span>
                             </div>
                         </div>
 
@@ -44,10 +55,20 @@
 
                         <div class="mt-2">
                             <div class="d-block border mb-1 py-1 <?php if (isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
-                                Dalam Negeri : <span class="fw-bold">10</span>
+                                <?php
+                                    require_once('./config/connection.php');
+                                    $rows_dalam_engeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi ='Dalam Negeri' AND program_beasiswa = 'SUP Vokasi 2020'");
+                                    $rows_dalam_engeri = mysqli_num_rows($rows_dalam_engeri);
+                                ?>
+                                Dalam Negeri : <span class="fw-bold"><?=$rows_dalam_engeri?></span>
                             </div>
                             <div class="d-block border mb-1 py-1 <?php if (isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
-                                Luar Negeri : <span class="fw-bold">10</span>
+                                <?php
+                                    require_once('./config/connection.php');
+                                    $rows_luar_negeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi ='Luar Negeri' AND program_beasiswa = 'SUP Vokasi 2020'");
+                                    $rows_luar_negeri = mysqli_num_rows($rows_luar_negeri);
+                                ?>
+                                Luar Negeri : <span class="fw-bold"><?=$rows_luar_negeri?></span>
                             </div>
                         </div>
 
@@ -73,10 +94,20 @@
 
                         <div class="mt-2">
                             <div class="d-block border mb-1 py-1 <?php if (isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
-                                Dalam Negeri : <span class="fw-bold">10</span>
+                                <?php
+                                    require_once('./config/connection.php');
+                                    $rows_dalam_engeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi ='Dalam Negeri' AND program_beasiswa = 'SUP 2021'");
+                                    $rows_dalam_engeri = mysqli_num_rows($rows_dalam_engeri);
+                                ?>
+                                Dalam Negeri : <span class="fw-bold"><?=$rows_dalam_engeri?></span>
                             </div>
                             <div class="d-block border mb-1 py-1 <?php if (isset($_GET['filter_program'])) { echo 'bg-light text-dark'; } ?>">
-                                Luar Negeri : <span class="fw-bold">10</span>
+                                <?php
+                                    require_once('./config/connection.php');
+                                    $rows_luar_negeri = mysqli_query($mysqli, "SELECT * FROM siswa WHERE lokasi_studi ='Luar Negeri' AND program_beasiswa = 'SUP 2021'");
+                                    $rows_luar_negeri = mysqli_num_rows($rows_luar_negeri);
+                                ?>
+                                Luar Negeri : <span class="fw-bold"><?=$rows_luar_negeri?></span>
                             </div>
                         </div>
 
