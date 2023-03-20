@@ -2,7 +2,7 @@
             
             <!-- .col start -->
             <div class="col-lg-2 py-lg-5 ps-5 text-center">
-                <div class="card shadow-sm <?php if(!isset($_GET['filter_program'])) { echo 'bg-dark text-light'; } ?>">
+                <div class="card rounded-0 shadow-sm <?php if(!isset($_GET['filter_program'])) { echo 'bg-dark text-light'; } ?>">
                     <div class="card-body">
                         <?php 
                             require_once('./config/connection.php');
@@ -19,7 +19,7 @@
             
             <!-- .col start -->
             <div class="col-lg-2 py-lg-5 ps-5 text-center">
-                <div class="card shadow-sm <?php if(isset($_GET['filter_program']) && $_GET['filter_program'] == 'SUP Vokasi 2020') { echo 'bg-dark text-light'; } ?>">
+                <div class="card rounded-0 shadow-sm <?php if(isset($_GET['filter_program']) && $_GET['filter_program'] == 'SUP Vokasi 2020') { echo 'bg-dark text-light'; } ?>">
                     <div class="card-body">
                         <?php 
                             require_once('./config/connection.php');
@@ -36,7 +36,7 @@
             
             <!-- .col start -->
             <div class="col-lg-2 py-lg-5 ps-5 text-center">
-                <div class="card shadow-sm <?php if(isset($_GET['filter_program']) && $_GET['filter_program'] == 'SUP 2021') { echo 'bg-dark text-light'; } ?>">
+                <div class="card rounded-0 shadow-sm <?php if(isset($_GET['filter_program']) && $_GET['filter_program'] == 'SUP 2021') { echo 'bg-dark text-light'; } ?>">
                     <div class="card-body">
                         <?php 
                             require_once('./config/connection.php');
