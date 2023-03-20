@@ -32,7 +32,7 @@
                                 while ($user_data = mysqli_fetch_array($siswa_semua)) {
                                     echo "<tr>";
                                     echo "<td>" . $no++ . "</td>";
-                                    echo "<td> <img src='./assets/images/photos/user.png' alt='Profile Picture' class='img-fluid' width='30px'> </td>";
+                                    // echo "<td> <img src='./assets/images/photos/user.png' alt='Profile Picture' class='img-fluid' width='30px'> </td>";
                                     echo "<td>" . $user_data['nama_lengkap'] . "</td>";
                                     echo "<td class='text-uppercase'>" . $user_data['kabkota'] . "</td>";
                                     echo "<td class='text-uppercase'>" . $user_data['program_beasiswa'] . "</td>";
