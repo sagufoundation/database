@@ -87,28 +87,3 @@
 
         </div>
 
-        <div class="row">
-            <div class="col-12 pb-lg-5 px-5 text-center">
-
-                <div class="card">
-                    <div class="card-body d-flex gap-3">
-
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Dalam Negeri" id="dalam-neger">
-                            <label class="form-check-label" for="dalam-neger">
-                                Dalam Negeri
-                            </label>
-                        </div>      
-
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Luar Negeri" id="luar-negeri">
-                            <label class="form-check-label" for="luar-negeri">
-                                Luar Negeri
-                            </label>
-                        </div>                  
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
