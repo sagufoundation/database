@@ -22,10 +22,10 @@
                                         <th class="text-uppercase">Nama Lengkap</th>
                                         <th class="text-uppercase">Kota / Kabupaten</th>
                                         <th class="text-uppercase">Program Beasiswa</th>
-                                        <th class="text-uppercase" >Lokasi Studi</th>
-                                        <th class="text-uppercase" >NIK</th>
-                                        <th>Keterangan</th>
-                                        <th class="text-uppercase" >Folder Google Drive</th>
+                                        <th class="text-uppercase">Lokasi Studi</th>
+                                        <th class="text-uppercase">NIK</th>
+                                        <th class="text-uppercase">Keterangan</th>
+                                        <th class="text-uppercase">Folder Google Drive</th>
                                     </tr>
                                 </thead>
                                 <tbody>
