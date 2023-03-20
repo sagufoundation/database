@@ -17,7 +17,7 @@
                             <thead>
                                 <tr>
                                     <th width="1px" class="text-uppercase">No</th>
-                                    <th width="100px" class="text-uppercase">Gambar</th>
+                                    <!-- <th width="100px" class="text-uppercase">Gambar</th> -->
                                     <th class="text-uppercase">Nama Lengkap</th>
                                     <th class="text-uppercase">Kota / Kabupaten</th>
                                     <th class="text-uppercase">Program Beasiswa</th>
