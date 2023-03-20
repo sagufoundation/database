@@ -73,7 +73,7 @@
                                         </li>
                                         <li class="list-group-item">
                                             <div>
-                                                <span class="fw-bold form-label d-block">Universitas :</span> 
+                                                <span class="fw-bold form-label d-block">Sekolah/Universitas :</span> 
                                                 <?=$universitas?>
                                             </div>
                                         </li>

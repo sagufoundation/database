@@ -132,7 +132,7 @@
                                             <input type="text" class="form-control form-control-lg rounded-0" id="folder_google_drive" name="folder_google_drive" value="">
                                         </li>
                                         <li class="list-group-item">
-                                            <label for="universitas" class="fw-bold form-label">Universitas :</label> 
+                                            <label for="universitas" class="fw-bold form-label">Sekolah/Universitas :</label> 
                                             <input type="text" class="form-control form-control-lg rounded-0" id="universitas" name="universitas" value="">
                                         </li>
                                         <li class="list-group-item">
