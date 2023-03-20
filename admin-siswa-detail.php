@@ -15,7 +15,7 @@
                             </div>
 
                             <div class="col-lg-2 text-end">
-                                <a href="./admin-siswa.php" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-times-rectangle me-1"></i> Close</a>
+                                <a href="./admin-siswa.php" class="btn btn-lg btn-outline-dark rounded-0"><i class="fa-solid fa-times-rectangle me-1"></i> Close</a>
                             </div>
 
                         </div>
