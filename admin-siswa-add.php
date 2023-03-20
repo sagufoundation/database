@@ -4,7 +4,7 @@
     <!-- .container start -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 p-lg-5">
+            <div class="col-12 px-lg-5">
                 <div class="card shadow rounded-0">
                     <div class="card-header">
                         <div class="row mb-3">
@@ -141,18 +141,6 @@
                 <!-- .card end -->
             </div>
             <!-- .col end -->
-        </div>
-        <!-- .row end -->
-
-        <div class="row">
-            <footer class="col-lg-6 mx-auto text-center text-secondary">
-                <div>
-                    <a href="https://sagufoundation.org"
-                        class="text-decoration-none link-secondary fw-bold">www.sagufoundation.org</a>
-                </div>
-                Copyright &copy; 2023 - All Right Reserved.
-            </footer>
-            <!-- .footer end -->
         </div>
         <!-- .row end -->
     </div>

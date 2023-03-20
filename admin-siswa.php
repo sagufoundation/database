@@ -10,7 +10,7 @@
 
         <div class="row">
             <div class="col-12 px-lg-5">
-                <div class="card">
+                <div class="card shadow-sm">
                     <div class="card-body">
 
                         <div class="mb-3">
@@ -84,7 +84,6 @@
             </div><!-- end col-->
         </div>
         <!-- end row-->
-        
     </div>
     <!-- .container end -->
 

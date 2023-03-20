@@ -4,7 +4,7 @@
 
 
      <!-- FOOTER START -->
-     <footer class="pb-5">
+     <footer class="py-5">
         <div class="row">
             <footer class="col-lg-6 mx-auto text-center text-secondary">
                 <div>
