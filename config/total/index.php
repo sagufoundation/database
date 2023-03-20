@@ -11,6 +11,7 @@
                         ?>
                         <p class="text-uppercase fw-bold">SUP Vokasi 2020</p>
                         <h1><span class="fw-bold"><?=$rows_sup_vokasi?></span> Siswa</h1>
+                        <a href="#" class="btn btn-sm btn-outline-success fw-bold w-100"><i class="fa-solid fa-arrow-right me-2"></i>Tampilkan</a>
                     </div>
                 </div>
             </div>
@@ -27,6 +28,7 @@
                         ?>
                         <p class="text-uppercase fw-bold">SUP 2021</p>
                         <h1><span class="fw-bold"><?=$rows_sup_2021?></span> Siswa</h1>
+                        <a href="#" class="btn btn-sm btn-outline-success fw-bold w-100"><i class="fa-solid fa-arrow-right me-2"></i>Tampilkan</a>
                     </div>
                 </div>
             </div>
