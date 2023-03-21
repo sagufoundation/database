@@ -24,9 +24,9 @@
                                     <!-- <th width="100px" class="text-uppercase">Gambar</th> -->
                                     <th class="text-uppercase">Nama Lengkap</th>
                                     <th class="text-uppercase">Kota / Kabupaten</th>
+                                    <th class="text-uppercase">NIK</th>
                                     <th class="text-uppercase">Program Beasiswa</th>
                                     <th class="text-uppercase">Lokasi Studi</th>
-                                    <th class="text-uppercase">NIK</th>
                                     <th class="text-uppercase">Sekolah/Universitas</th>
                                     <th class="text-uppercase">Jurusan</th>
                                     <th class="text-uppercase">Tahun Masuk</th>
@@ -47,9 +47,9 @@
                                     // echo "<td> <img src='./assets/images/photos/user.png' alt='Profile Picture' class='img-fluid' width='30px'> </td>";
                                     echo "<td>" . $user_data['nama_lengkap'] . "</td>";
                                     echo "<td class='text-uppercase'>" . $user_data['kabkota'] . "</td>";
+                                    echo "<td>" . $user_data['nik'] . "</td>";
                                     echo "<td class='text-uppercase'>" . $user_data['program_beasiswa'] . "</td>";
                                     echo "<td class='text-uppercase'>" . $user_data['lokasi_studi'] . "</td>";
-                                    echo "<td>" . $user_data['nik'] . "</td>";
                                     echo "<td>" . $user_data['universitas'] . "</td>";
                                     echo "<td>" . $user_data['jurusan'] . "</td>";
                                     echo "<td>" . $user_data['tahun_masuk'] . "</td>";
