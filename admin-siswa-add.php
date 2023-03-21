@@ -157,11 +157,11 @@
                                             <label class="fw-bold form-label" for="status_kuliah">Status :</label> 
                                             <select name="status_kuliah" id="status_kuliah" class="form-select form-select-lg rounded-0 text-uppercase">
                                                 <option hidden selected>Pilih</option>
-                                                <option value="1">Aktif Kuliah</option>
-                                                <option value="2">Mengundurkan Diri</option>
-                                                <option value="3">Selesai</option>
-                                                <option value="4">Tidak Jelas</option>
-                                                <option value="5">Meninggal Dunia</option>
+                                                <option value="Aktif Kuliah">Aktif Kuliah</option>
+                                                <option value="Mengundurkan Diri">Mengundurkan Diri</option>
+                                                <option value="Selesai">Selesai</option>
+                                                <option value="Tidak Jelas">Tidak Jelas</option>
+                                                <option value="Meninggal Dunia">Meninggal Dunia</option>
                                             </select>
                                         </li>
                                         <!-- input item end -->

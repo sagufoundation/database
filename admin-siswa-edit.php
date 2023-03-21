@@ -157,11 +157,11 @@
                                             <label class="fw-bold form-label" for="status_kuliah">Status :</label> 
                                             <select name="status_kuliah" id="status_kuliah" class="form-select form-select-lg rounded-0 text-uppercase">
                                                 <option hidden selected>Pilih</option>
-                                                <option value="1" <?php if($status_kuliah == '1') { echo 'Selected'; }?>>Aktif Kuliah</option>
-                                                <option value="2" <?php if($status_kuliah == '2') { echo 'Selected'; }?>>Mengundurkan Diri</option>
-                                                <option value="3" <?php if($status_kuliah == '3') { echo 'Selected'; }?>>Selesai</option>
-                                                <option value="4" <?php if($status_kuliah == '4') { echo 'Selected'; }?>>Tidak Jelas</option>
-                                                <option value="5" <?php if($status_kuliah == '5') { echo 'Selected'; }?>>Meninggal Dunia</option>
+                                                <option value="Aktif Kuliah" <?php if($status_kuliah == 'Aktif Kuliah') { echo 'Selected'; }?>>Aktif Kuliah</option>
+                                                <option value="Mengundurkan Diri" <?php if($status_kuliah == 'Mengundurkan Diri') { echo 'Selected'; }?>>Mengundurkan Diri</option>
+                                                <option value="Selesai" <?php if($status_kuliah == 'Selesai') { echo 'Selected'; }?>>Selesai</option>
+                                                <option value="Tidak Jelas" <?php if($status_kuliah == 'Tidak Jelas') { echo 'Selected'; }?>>Tidak Jelas</option>
+                                                <option value="Meninggal Dunia" <?php if($status_kuliah == 'Meninggal Dunia') { echo 'Selected'; }?>>Meninggal Dunia</option>
                                             </select>
                                         </li>
                                         <!-- input item end -->
