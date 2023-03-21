@@ -14,5 +14,9 @@
         $folder_google_drive = $siswa['folder_google_drive'];
         $lokasi_studi = $siswa['lokasi_studi'];
         $universitas = $siswa['universitas'];
+        $jurusan = $siswa['jurusan'];
+        $tahun_masuk = $siswa['tahun_masuk'];
+        $negara_studi = $siswa['negara_studi'];
+        $status_kuliah = $siswa['status_kuliah'];
         $keterangan = $siswa['keterangan'];
     }

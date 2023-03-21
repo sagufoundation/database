@@ -47,20 +47,14 @@
                                             <label for="nama_lengkap" class="fw-bold form-label">Nama Lengkap :</label> 
                                             <input type="text" class="form-control form-control-lg rounded-0" id="nama_lengkap" name="nama_lengkap" value="">
                                         </li>
+                                        <!-- input item end -->
+                                        
                                         <li class="list-group-item">
                                             <label for="nik" class="fw-bold form-label">NIK :</label> 
                                             <input type="text" class="form-control form-control-lg rounded-0" id="nik" name="nik" value="">
                                         </li>
-                                        <!-- <li class="list-group-item">
-                                            <label class="fw-bold form-label">Provinsi :</label> 
-                                            <select name="provinsi" id="" class="form-select">
-                                                <option hidden selected>Pilih</option>
-                                                <option value="1">Papua</option>
-                                                <option value="2">Papua Pengunungan</option>
-                                                <option value="3">Papua Tengah</option>
-                                                <option value="4">Papua Selatan</option>
-                                            </select>
-                                        </li>-->
+                                        <!-- input item end -->
+                                        
                                         <li class="list-group-item">
                                             <label class="fw-bold form-label">Kabupaten/Kota :</label> 
                                             <select name="kabkota" id="" class="form-select form-select-lg rounded-0 text-uppercase">
@@ -102,6 +96,8 @@
 
                                             </select>
                                         </li> 
+                                        <!-- input item end -->
+                                        
                                         <li class="list-group-item">
                                             <label class="fw-bold form-label" for="provinsi">Program Beasiswa :</label> 
                                             <select name="provinsi" id="provinsi" class="form-select form-select-lg rounded-0 text-uppercase">
@@ -110,6 +106,8 @@
                                                 <option value="SUP 2021">SUP 2021</option>
                                             </select>
                                         </li>
+                                        <!-- input item end -->
+                                        
                                         <li class="list-group-item">
                                             <label class="fw-bold form-label" for="lokasi_studi">Lokasi Studi :</label> 
                                             <select name="lokasi_studi" id="lokasi_studi" class="form-select form-select-lg rounded-0 text-uppercase">
@@ -119,31 +117,71 @@
                                                 <option value="">Tanpa Keterangan</option>
                                             </select>
                                         </li>
-                                        <!-- <li class="list-group-item">
-                                            <label class="fw-bold form-label">NIK :</label> 
-                                            <input type="text" class="form-control" name="nik" value="90234090234">
-                                        </li>
-                                        <li class="list-group-item">
-                                            <label class="fw-bold form-label">Keterangan :</label> 
-                                            <textarea name="" rows="10" class="form-control">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, distinctio ex consequuntur voluptate non similique. Incidunt ratione harum vitae doloremque!</textarea>
-                                        </li> -->
-                                        <li class="list-group-item">
-                                            <label for="folder_google_drive" class="fw-bold form-label">Folder Google Drive :</label> 
-                                            <input type="text" class="form-control form-control-lg rounded-0" id="folder_google_drive" name="folder_google_drive" value="">
-                                        </li>
+                                        <!-- input item end -->
+                                        
                                         <li class="list-group-item">
                                             <label for="universitas" class="fw-bold form-label">Sekolah/Universitas :</label> 
                                             <input type="text" class="form-control form-control-lg rounded-0" id="universitas" name="universitas" value="">
                                         </li>
+                                        <!-- input item end -->
+                                        
+                                        <li class="list-group-item">
+                                            <label for="jurusan" class="fw-bold form-label">Jurusan :</label> 
+                                            <input type="text" class="form-control form-control-lg rounded-0" id="jurusan" name="jurusan" value="">
+                                        </li>
+                                        <!-- input item end -->
+                                        
+                                        <li class="list-group-item">
+                                            <label class="fw-bold form-label" for="tahun_masuk">Tahun Masuk :</label> 
+                                            <select name="tahun_masuk" id="tahun_masuk" class="form-select form-select-lg rounded-0 text-uppercase">
+                                                <option hidden selected>Pilih</option>
+                                                <option value="2020">2020</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                            </select>
+                                        </li>
+                                        <!-- input item end -->
+                                        
+                                        <li class="list-group-item">
+                                            <label class="fw-bold form-label" for="negara_studi">Negara Studi :</label> 
+                                            <select name="negara_studi" id="negara_studi" class="form-select form-select-lg rounded-0 text-uppercase">
+                                                <option hidden selected>Pilih</option>
+                                                <option value="Indonesia">Indonesia</option>
+                                                <option value="Australia">Australia</option>
+                                            </select>
+                                        </li>
+                                        <!-- input item end -->
+                                        
+                                        <li class="list-group-item">
+                                            <label class="fw-bold form-label" for="status_kuliah">Status :</label> 
+                                            <select name="status_kuliah" id="status_kuliah" class="form-select form-select-lg rounded-0 text-uppercase">
+                                                <option hidden selected>Pilih</option>
+                                                <option value="1">Aktif Kuliah</option>
+                                                <option value="2">Mengundurkan Diri</option>
+                                                <option value="3">Selesai</option>
+                                                <option value="4">Tidak Jelas</option>
+                                                <option value="5">Meninggal Dunia</option>
+                                            </select>
+                                        </li>
+                                        <!-- input item end -->
+                                        
                                         <li class="list-group-item">
                                             <label class="fw-bold form-label" for="keterangan">Keterangan :</label> 
                                             <textarea name="keterangan" id="keterangan" rows="10" class="form-control form-control-lg rounded-0"></textarea>
                                         </li>
+                                        <!-- input item end -->
+                                        
+                                        <li class="list-group-item">
+                                            <label for="folder_google_drive" class="fw-bold form-label">Folder Google Drive :</label> 
+                                            <input type="text" class="form-control form-control-lg rounded-0" id="folder_google_drive" name="folder_google_drive" value="">
+                                        </li>
+                                        <!-- input item end -->
+                                        
                                         <li class="list-group-item">
                                             <button type="submit" class="btn btn-dark btn-lg rounded-0" name="submit">
                                                 <i class="fa-solid fa-save"></i> Save
                                             </button>
-                                            <!-- <a href="admin-student-trash.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-trash"></i></a> -->
                                         </li>
                                     </ul>
 

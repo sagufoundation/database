@@ -1,7 +1,9 @@
 
 <?php require_once('./partials/header-index.php'); ?>
     
-    <div class="container text-uppercase">
+    <div class="container-fluid text-uppercase">
+
+        <!-- .row start -->
         <div class="row">
             <div class="col-lg-8 mx-auto p-5">
                 <div class="card shadow">
@@ -21,6 +23,7 @@
                 </div>
             </div>
         </div>
+        <!-- .row end -->
 
     </div>
 
