@@ -25,6 +25,10 @@
                                         <th class="text-uppercase">Lokasi Studi</th>
                                         <th class="text-uppercase">NIK</th>
                                         <th class="text-uppercase">Sekolah/Universitas</th>
+                                        <th class="text-uppercase">Jurusan</th>
+                                        <th class="text-uppercase">Tahun Masuk</th>
+                                        <th class="text-uppercase">Negara Studi</th>
+                                        <th class="text-uppercase">Status Kuliah</th>
                                         <th class="text-uppercase">Keterangan</th>
                                         <th class="text-uppercase">Folder Google Drive</th>
                                     </tr>
@@ -43,6 +47,10 @@
                                         echo "<td class='text-uppercase'>" . $user_data['lokasi_studi'] . "</td>";
                                         echo "<td>" . $user_data['nik'] . "</td>";
                                         echo "<td>" . $user_data['universitas'] . "</td>";
+                                        echo "<td>" . $user_data['jurusan'] . "</td>";
+                                        echo "<td>" . $user_data['tahun_masuk'] . "</td>";
+                                        echo "<td>" . $user_data['negara_studi'] . "</td>";
+                                        echo "<td>" . $user_data['status_kuliah'] . "</td>";
                                         echo "<td>" . $user_data['keterangan'] . "</td>";
                                         echo "<td>";
                                             if(isset($user_data['folder_google_drive']) && $user_data['folder_google_drive'] != '') {
