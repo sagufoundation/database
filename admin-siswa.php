@@ -31,7 +31,7 @@
                                     <th class="text-uppercase">Jurusan</th>
                                     <th class="text-uppercase">Tahun Masuk</th>
                                     <th class="text-uppercase">Negara Studi</th>
-                                    <th class="text-uppercase">Status</th>
+                                    <th class="text-uppercase">Status Kuliah</th>
                                     <th class="text-uppercase">Keterangan</th>
                                     <th class="text-uppercase">Folder Google Drive</th>
                                     <th class="text-uppercase">Opsi</th>
