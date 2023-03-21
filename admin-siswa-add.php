@@ -94,6 +94,8 @@
                                                 <!-- PAPUA BARAT DAYA -->
                                                 <option value="Kota Sorong">Kota Sorong</option> 
 
+                                                <option value="">Pilih</option> 
+
                                             </select>
                                         </li> 
                                         <!-- input item end -->

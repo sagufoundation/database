@@ -1,6 +1,7 @@
 <?php require_once('config/siswa/semua.php'); ?>
 <?php require_once('./partials/header.php'); ?>
 
+
     <!-- .container start -->
     <div class="container-fluid">
 
@@ -8,6 +9,11 @@
         <?php require_once('./config/total/index.php'); ?>
         <!-- REKAP JUMLAH DATA END -->
 
+
+
+    
+
+        
         <div class="row">
             <div class="col-12 px-lg-5">
                 <div class="card rounded-0 shadow-sm">

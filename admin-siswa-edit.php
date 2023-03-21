@@ -93,6 +93,8 @@
 
                                                 <!-- PAPUA BARAT DAYA -->
                                                 <option value="Kota Sorong" <?php if($kabkota == 'Kota Sorong') { echo 'Selected'; }?>>Kota Sorong</option> 
+                                                
+                                                <option value="" <?php if($kabkota == '') { echo 'Selected'; }?>>Pilih</option> 
 
                                             </select>
                                         </li> 
